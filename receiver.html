@@ -18,6 +18,13 @@ limitations under the License.
   <head>
     <title>Cast Hello Text</title>
   </head>
+  <style>
+     .embedded-frame {
+       width: 100%;
+       height: 99.5%;
+       border: none;
+     }
+  </style>
   <body>
     <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
     <script type="text/javascript">
@@ -79,7 +86,6 @@ limitations under the License.
         window.castReceiverManager.setApplicationState(text);
       };
     </script>
-       <iframe src="https://google.tickr.com/#/google-live-conversation?filters=compare:false;current!time:today,region:country*world&presentation-mode=hq-live-conversation"></iframe>
-       
+       <iframe class="embedded-frame" src="https://google.tickr.com/#/google-live-conversation?filters=compare:false;current!time:today,region:country*world&presentation-mode=hq-live-conversation"></iframe>
   </body>
 </html>
